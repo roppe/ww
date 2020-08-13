@@ -1539,8 +1539,8 @@ font-family: 'Mulish', sans-serif;
 
 	.contact-info{ 
 		background-color: #ffc326;
-		margin-right: 30px;
-		max-width: 280px;
+		margin-right: 45px;
+		max-width: 290px;
 		padding: 25px;
 	}
 
@@ -1578,7 +1578,7 @@ font-family: 'Mulish', sans-serif;
 		width: 100%;
 		margin-bottom: 15px;
 		margin-top: 0;
-		font-size: 25px;
+		font-size: 27px;
 	}
 
 	.contact-info img{
@@ -2444,21 +2444,25 @@ font-family: 'Mulish', sans-serif;
 
 		}
 		
-	.footer-info .fa{
+		.footer-info {
+			position: relative;
+		
+		}
+	.footer-info  .fa{
 		font-size: 50px;
 		display: block;
-		float: left;
-		float: left;
+	  
 		color: #fff;
 		margin-right: 15px;
-		margin-top: 8px;
+	
+		
 	}
 
 	.footer-info p{
 	font-weight: 300;
 	color: #fff;
 	font-size: 14px;
-	text-align: left;
+	text-align: right;
 	margin-top: 10px;
 	font-family: 'Roboto', sans-serif;
 	margin-bottom: 5px;
@@ -2468,13 +2472,16 @@ font-family: 'Mulish', sans-serif;
 	.footer-info h6{
 	font-family: 'Roboto', sans-serif;
 	color: #fff;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 600;
+	text-align: right;
 
 	}
 
 	.footer-info .social-icon{
 		margin-right: 10px;
+		display: block;
+		float: right;
 	}
 
 
