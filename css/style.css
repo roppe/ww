@@ -1089,7 +1089,7 @@ font-family: 'Mulish', sans-serif;
 		}
 
 		#section-services .left-one .t-1{
-			font-size: 34px;
+			font-size: 29px;
 		font-weight: 600;
 		text-transform: uppercase;
 		color: #232323;
@@ -1102,22 +1102,22 @@ font-family: 'Mulish', sans-serif;
 		}
 
 		#section-services .left-one h4{
-			font-weight: 300;
+			font-weight: 600;
 			color: #232323;
 			text-transform: uppercase;
 			text-align: center;
 			width: 100%;
 			margin-bottom: 35px;
 			margin-top: 0;
-			font-size: 20px;
+			font-size: 18px;
 
 		}
 		
 
 		#section-services .left-one p{
-			font-weight: 300;
+			font-weight: 400;
 			color: #232323;
-			font-size: 15px;
+			font-size: 17px;
 			text-align: left;
 			margin-top: 10px;
 			font-family: 'Roboto', sans-serif;
@@ -1133,7 +1133,7 @@ font-family: 'Mulish', sans-serif;
 		font-family: 'Roboto', sans-serif;
 		font-weight: 500;
 		color: #232323;
-		font-size: 15px;
+		font-size: 17px;
 		text-align:left;	
 		}
 
@@ -1658,6 +1658,19 @@ font-family: 'Mulish', sans-serif;
 
 	}
 
+	#brooklyn-services .left-brooklyn .t-2{
+		font-size: 28px;
+		font-weight: 700;
+		text-transform: uppercase;
+		color:#232323;
+		text-align: center;
+		width: 100%;
+		margin-bottom: 5px;
+		margin-top: 0;
+	
+	
+		}
+
 	#brooklyn-services .left-brooklyn .thumb-serv{
 		margin-bottom: 20px;
 		display: block;
@@ -1670,6 +1683,7 @@ font-family: 'Mulish', sans-serif;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
+		margin-bottom: 20px;
 	}
 
 	#brooklyn-services .left-brooklyn h4{
@@ -1687,7 +1701,7 @@ font-family: 'Mulish', sans-serif;
 	#brooklyn-services .left-brooklyn p{
 		font-weight: 400;
 		color: #4b5b68;
-		font-size: 16px;
+		font-size: 18px;
 		text-align: left;
 		margin-top: 10px;
 		font-family: 'Roboto', sans-serif;
@@ -1713,6 +1727,18 @@ font-family: 'Mulish', sans-serif;
 		margin-top: 0;
 
 
+		}
+
+		.list-duty{
+			padding-top: 15px;
+			padding-bottom: 15px;
+	
+		}
+
+		.list-duty .left-img{
+			display: block;
+			margin-left: auto;
+			margin-right:auto;
 		}
 	
 
@@ -1799,10 +1825,10 @@ font-family: 'Mulish', sans-serif;
 		}
 	
 		.customers  .in-tx p{
-			font-family: 'Robot', sans-serif;
+			font-family: 'Roboto', sans-serif;
 		font-weight: 500;
 		color: #232323;
-		font-size: 15px;
+		font-size: 17px;
 		text-align: left;
 		line-height: 18px;
 		margin-top: 15px;
@@ -1959,7 +1985,7 @@ font-family: 'Mulish', sans-serif;
     text-align: center;
     width: 100%;
     margin-bottom: 5px;
-    margin-top: 0;
+    margin-top: 20px;
 
 
 	}
@@ -1977,9 +2003,9 @@ font-family: 'Mulish', sans-serif;
 	}
 
 	#about-services .center-about p{
-	font-weight: 300;
-	color: #3d3d3d;
-	font-size: 16px;
+	    font-weight: 400;
+    color: #4b5b68;
+	font-size: 18px;
 	text-align: left;
 	margin-top: 10px;
 	font-family: 'Roboto', sans-serif;
@@ -2003,6 +2029,7 @@ font-family: 'Mulish', sans-serif;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
+		margin-bottom: 15px;
 	}
 	#about-services .center-about .tow-img{
 		margin-bottom: 25px;
@@ -2422,7 +2449,7 @@ font-family: 'Mulish', sans-serif;
 
 
 	.nyc-benfits .inside-benefits p{
-	font-size: 15px;
+	font-size: 18px;
 	font-weight: 500;
 	margin-top: 5px;
 	margin-bottom: 8px;
@@ -2549,7 +2576,7 @@ font-family: 'Mulish', sans-serif;
 		font-family: 'Mulish', sans-serif;
 		text-align:left;
 	
-		font-weight:400;    
+		font-weight:600;    
 	
 		}
 	
@@ -2679,7 +2706,54 @@ font-family: 'Mulish', sans-serif;
 		
 			@media (max-width: 1079px) {
 
-					.main-navigation .nav-list .nav-link{
+				#home-about .collage{
+					display: none;
+				}
+
+				#section-services img {
+					display: block;
+					margin-left: auto;
+					margin-right: auto;
+					width: 100%;
+				}
+				#section-services .left-one .hook {
+				display:none;
+				}
+
+				#home-about .first-info h6 {
+				
+					display: inline-block;
+					width: 47%;
+				}
+
+				#section-services .second-img{
+					display: block;
+					margin-left: auto !important;
+					margin-right:auto !important;
+				}
+
+				.warranty-banner .btn-10 {
+					width: 100%;
+				}
+
+				.warranty-banner .btn-10 span{
+					font-size: 14px;
+				}
+				.warranty-banner .btn-10{
+					font-size: 20px;
+				}
+
+				.home-gallery h2{
+					font-size: 29px;
+				}
+
+				.main-navigation .nav-list .btn-call{
+					display: block;
+					margin-left:auto;
+					margin-right:auto;
+				}				
+				
+				.main-navigation .nav-list .nav-link{
 						font-size: 11px;
 					}
 
@@ -2735,10 +2809,89 @@ font-family: 'Mulish', sans-serif;
 
 		@media (max-width: 991px) {
 				
-			 
+			#about-services .truck-img{
+				display: none;
+			}
+
+			#about-services .center-about .t-1 {
+				font-size: 23px;
+			}
+
+			.location-features h5{
+				font-size: 13px;
+			}
+			#about-services .center-about p {
+				font-size: 16px;
+			}
+		
+			#about-services .center-about .t-1{
+				font-size: 25px;
+			}
+
+			#brooklyn-services .left-brooklyn .t-2{
+				font-size: 25px;
+			}
+
+			#about-services .center-about p{
+				font-size: 17px;
+			}
+			.small-banner h2{
+				font-size: 25px;
+			}
+			
+			.banner-cover-top .text-headline {
+				background-color: transparent;
+				margin-top: 20px;
+				padding-top: 15px;
+				padding-left: 20px;
+			}
+
+			.banner-cover-top{
+				height: 170px;
+			}
+
+			.banner-cover-top .text-headline h2 span{
+				font-size: 23px;
+			}
+
+			#brooklyn-services{
+				padding-top: 20px;
+			}
+
+			#brooklyn-services .left-brooklyn p {
+				
+				font-size: 16px;
+			
+			}
+
+			.customers h2 {
+				font-size: 27px;
+			
+			}
+			
+			.customers h6{
+				font-size: 20px;
+			}
+
+		
+			.customers .in-tx p{
+				font-size: 16px;
+			}
+			
+			#brooklyn-services .left-brooklyn .t-1{
+				font-size: 25px;
+			}
 
 				#top-section .tx-box-1 h2{
 				font-size: 22px;
+				margin-top: 20px !important;
+				}
+
+				#brooklyn-services .left-img{
+					display: block;
+					margin-left: auto;
+					margin-right: auto;
+					margin-top:40px;
 				}
 
 				#top-section .tx-box-1 h4{
@@ -2787,109 +2940,9 @@ font-family: 'Mulish', sans-serif;
 						padding-top: 20px;
 				}
 
-				.process-steps {
-				margin-bottom: 10px;
-				max-width: 230px;
-				background-color: #fafafa;
-				margin-right: 8px;
-				padding-top: 20px;
-				padding-bottom: 20px;
-				margin-top: 40px;
-				position: relative;
-				}
+			
 
-				.process-steps h6{
-						font-size: 13px;
-				}
-
-				.process-steps p{
-						font-size: 11px;
-				}
-
-				.banner-cover-top .text-headline{
-						margin-top: 15px;
-				}
-
-				.banner-cover-top .text-headline h2 span{
-						font-size: 26px;
-				}
-
-				.banner-cover-top .text-headline h2{
-						font-size: 19px;
-				}
-
-
-				.gallery-content .pic-1{
-						width: 55%;
-						display: block;
-						margin-right: auto;
-						margin-left: auto;
-				}
-
-				#we-buy-section .tx-box h2{
-						font-size: 21px;
-				}
-
-				#we-buy-section .tx-box h4{
-						font-size: 17px;
-				}
-
-				#we-buy-section .title-box h2{
-						font-size: 19px;
-						text-align: center;
-				}
-
-				#we-buy-section .title-box p{
-						font-size: 13px;
-				}
-
-				.product-list li{
-						width: 25%;
-				}
-
-				.product-list li h6{
-						font-size: 14px;
-				}
-
-				#section-how-it-work .box-text-5 h2{
-						font-size: 24px;
-				}
-
-				.inner-how-it-work-1 .first-side-work .headline-app{
-						font-size: 15px;
-				}
-
-				.inner-how-it-work-1 .first-side-work .text-description{
-						font-size: 14px;
-				}
-
-				#buy-txt-section .repair-content h2{
-						font-size: 25px;
-				}
-
-				.demo-box .box-content p{
-						font-size: 16px;
-				}
-
-				.section-how-it-work .box-text-6 h2{
-						font-size: 24px;
-				}
-
-				#location-hour .map-info .t-1{
-						font-size: 15px;
-				}
-
-				#location-hour .map-info a span{
-						font-size: 32px;
-				}
-
-				.service-info .open-hours li span{
-						font-size: 11px;
-				}
-
-				.service-info .open-hours li p{
-						font-size: 12px;
-				}
+			
 
 
 		}  /* end  max widht 991px  */
@@ -2899,108 +2952,131 @@ font-family: 'Mulish', sans-serif;
 
 		@media (max-width: 767.98px) {
 
-
-
-				.process-steps{
-				max-width: 100%;
-				margin-bottom: 10px;
-				}
-
-				.process-steps img{
-				display: block;
-				margin-right: auto;
-				margin-left: auto;
-				width: 20%;
-				}
-
-				#top-section .tx-box-1 h2{
-				font-size: 19px;
-				}
-
-				#top-section .tx-box-1 h4{
-						font-size: 14px;
-				}
-				.catagories-home li{
-						width: 30%;
-				}
-
-				.banner-call .call-left h4 {
-				font-size: 13px;
-				}
-
-				.banner-call .call-left h5 {
-				font-size: 17px;
-				}
-
-				.banner-call .call-left h5 span {
-				font-size: 20px;
-				}
-
-				.info-left-side p{
-						font-size: 13px;
-				}
-
-				.info-left-side h2 {
-				font-size: 20px;
-				}
-
-				#location-hour .map-info{
-						height: 225px;
-						margin-bottom: 30px;
-				}
-
-				#buy-txt-section .repair-content p{
-						font-size: 13px;
-				}
-
-				.section-how-it-work .box-text-6 h2 {
+			.small-banner h2 {
 				font-size: 21px;
-				}
+			}
 
-				.section-how-it-work .how-steps p{
-						font-size: 13px;
-				}
+			.small-banner p{
+				font-size: 15px;
+			}
+			#brooklyn-services .left-brooklyn .t-1 {
+				font-size: 21px;
+			}
+			.banner-cover-top .top-img {
+				padding-right: 0;
+				display: none;
+			}
 
-				.inner-how-it-work-1 .first-side-work .text-description {
-				font-size: 13px;
-				}
+			#brooklyn-services .left-brooklyn p {
+				font-size: 15px;
+			}
 
-				#buy-txt-section .repair-content h2 {
+			#brooklyn-services .left-brooklyn .t-1 {
 				font-size: 23px;
-				}
+			}
 
-				.logo-left li a img{
-						display: block;
-						margin-left: auto;
-						margin-right: auto;
-				}
-
-				.demo-box .box-content h3{
-						font-size: 23px;
-				}
-
-				.product-list li h6 {
-				font-size: 12px;
-				}
-
-				.product-list li img {
+			#brooklyn-services .left-img {
 				display: block;
 				margin-left: auto;
 				margin-right: auto;
-				width: 85px;
-				height: 85px;
-				}
+				margin-top: 0;
+			}
+			
+			
 
-				#we-buy-section .tx-box h4 {
-				font-size: 15px;
-				}
+			#section-services .left-one .t-1{
+				font-size: 25px;
+			}
 
-				#we-buy-section .title-box h2 {
+			#section-services .left-one h4{
 				font-size: 17px;
+			}
+
+			#section-services .left-one p{
+				font-size: 15px;
+			}
+
+			#home-about .first-info h6 {
+			width: 100%;
+			}
+
+			#home-about .first-info h3{
 				text-align: center;
-				}
+			}
 
+			#home-about .first-info h2{
+				text-align: center;
+			}
 
+			.home-gallery h2 {
+				font-size: 26px;
+			}
+
+			#section-services .left-one .list-s li{
+				font-size: 16px;
+			}
+
+			.nyc-benfits .inside-benefits h2{
+				font-size: 27px;
+			}
+
+			.nyc-benfits .inside-benefits h4{
+				font-size: 19px;
+			}
+
+			.nyc-benfits .inside-benefits p{
+				font-size: 16px;
+			}
+		
+
+			#home-section .text-area h3 {
+				font-family: "Roboto";
+				font-weight: 300;
+				color: #fff;
+				font-size: 22px;
+				text-align: center;
+				background-color: rgba(0, 0, 0, 0.3);
+			}
+			#home-section .text-area h2 span{
+				font-size: 30px;
+				background-color: rgba(0, 0, 0, 0.3);
+				padding: 10px;
+				text-align: center;
+			}
+
+			.warranty-banner h2 {
+				font-size: 21px;
+				font-weight: 700;
+				text-transform: uppercase;
+				color: #fff;
+				text-align: center;
+				width: 100%;
+				margin-bottom: 5px;
+				margin-top: 22px;
+			}
+
+			.warranty-banner h3{
+				font-size: 16px;
+			}
+
+			.footer-info p{
+				font-size: 14px !important;
+				text-align: center;
+			}
+
+			.footer-info h6{
+				text-align: center;
+			}
+
+			.contact-info {
+				background-color: #ffc326;
+				margin-right:0;
+				max-width: 90%;
+				padding: 25px;
+				margin-bottom: 30px;
+			}
+
+			
 
 	}   /* /End responsive Tablet size */
 
@@ -3011,7 +3087,45 @@ font-family: 'Mulish', sans-serif;
 
 	
 	@media (max-width: 575.98px) { 
-	
+
+		.contact-info {
+			background-color: #ffc326;
+			margin-right:0;
+			max-width: 90%;
+			padding: 25px;
+			margin-bottom: 25px;
+		}
+		
+		#brooklyn-services .left-brooklyn .t-2 {
+			font-size: 22px;
+		}
+
+		.map {
+			margin-top: 30px;
+			display: block;
+			padding-top: 20px;
+		}
+
+		#contact-top h2{
+			font-size:25px;
+		}
+
+		#contact-top h3 {
+			font-weight: 400;
+			color: #3d3d3d;
+			text-transform: uppercase;
+			text-align: center;
+			width: 100%;
+			margin-bottom: 15px;
+			margin-top: 0;
+			font-size: 18px;
+		}
+		
+		
+
+		#about-services .center-about .t-1 {
+			font-size: 23px;
+		}
 
 				#home-section .text-area h2 span{
 						font-size: 24px;
@@ -3041,114 +3155,112 @@ font-family: 'Mulish', sans-serif;
 				font-size: 14px;
 				}
 
-				.banner-call .call-left h5 span {
-				font-family: 'Open Sans';
-				font-weight: 700;
-				color: #ffffff;
-				font-size: 16px;
-				margin-top: 10px;
-				letter-spacing: 1px;
-				text-align: center;
-				text-shadow: 0px 1px #000;
-				border:none;
-				padding-left:3px;
-				padding-right:3px;
-				padding-top: 5px;
-				padding-bottom: 5px;
-				border-radius: 5px;
-				margin-right:0;
-				margin-left:0;
+				#home-section .text-area h3{
+					font-size: 19px;
 				}
 
-							 .banner-call .call-left h5 span a {
-						font-family: 'Open Sans';
-						font-weight: 700;
-						color: #ffffff;
-						font-size: 16px;
-						margin-top: 10px;
-						letter-spacing: 1px;
-						text-align: center;
-						text-shadow: 0px 1px #000;
-						border: 2px solid #fff;
-						padding-left: 5px;
-						padding-right: 5px;
-						padding-top: 5px;
-						padding-bottom: 5px;
-						border-radius: 5px;
-						margin-right:5px;
-						margin-left: 5px;
+				#home-section .text-area h2 span {
+					font-size: 24px;
+					text-align: center;
 				}
 
-				.banner-call .call-left h5 span a .fa {
-		margin-left: 10px;
-		margin-right: 8px;
-		font-size: 18px;
-		color: #fff;
-}
-
-				.banner-call .call-left h5 span .fa {
-				margin-left: 4px;
-				margin-right: 7px;
-				font-size: 20px;
-				color: #fff;
-				margin-top: 2px;
+				#home-section .text-area .btn-demo-home{
+					display: block;
+					margin-left: auto;
+					margin-right: auto;
+					background-color: #ffc500;
+					float: none;
+					margin-top: 50px;
+					margin-top: 85px;
 				}
 
-				.banner-cover-top .text-headline h2 span {
-				font-size: 22px;
+				#home-about{
+					padding-top: 25px;
+				}
+				#home-about .first-info h3{
+					margin-top: 5px;
 				}
 
-				.banner-cover-top .text-headline h2 {
-				font-size: 17px;
+				#home-about .first-info .about-btn{
+					float: none;
+					display: block;
+					margin-left: auto;
+					margin-right: auto;
 				}
 
-				#buy-txt-section .repair-content h2 {
-				font-size: 18px;
+				.home-gallery h2 {
+					font-size: 23px;
 				}
 
-				#we-buy-section .tx-box h2 {
-				font-size: 18px;
+				.home-gallery h4{
+					font-size: 18px;
 				}
 
-				#we-buy-section .tx-box h4 {
-				font-size: 14px;
+				.nyc-benfits .inside-benefits h2 {
+					font-size: 24px;
 				}
 
-				.product-list li img{
-						width: 65px;
-						height: 65px;
+				.warranty-banner{
+					padding-right: 0;
 				}
 
-				.product-list li {
-				width: 33%;
+				.warranty-banner .btn-10 span {
+					font-size: 15px;
+					width: 100%;
+				}
+				.warranty-banner .btn-10 {
+					font-size: 25px;
 				}
 
-				.title-box h2 img {
-				margin-right: 10px;
-				margin-bottom: 5px;
-				width: 15%;
+				.banner-cover-top .text-headline{
+					padding-left: 15px;
 				}
 
-				.section-how-it-work .box-text-6 h2 {
-				font-size: 19px;
+				.banner-cover-top .text-headline h2 span{
+					font-size: 22px;
 				}
 
-				.section-how-it-work .how-steps .headline{
-				font-size: 14px;
+				.banner-cover-top .top-img{
+					display: none !important;
 				}
 
-				.demo-box{
-				background-size: cover;
+				.banner-cover-top .text-headline h6{
+					font-size: 14px;
 				}
 
-				.banner-call .call-left h5 span{
-				font-size: 14px;
+				#brooklyn-services{
+					padding-top: 0;
 				}
 
-				.demo-box .box-content h3{
-						font-size: 19px;
+				#brooklyn-services .left-brooklyn {
+					padding-bottom: 20px;
+					margin-bottom: 15px;
+					padding-left: 20px;
+					padding-right: 20px;
 				}
 
+				#brooklyn-services .left-brooklyn .t-1{
+					font-size: 22px;
+					margin-top: 15px!important;
+				}
+
+				#brooklyn-services .left-brooklyn h4 {
+					font-weight: 500;
+					
+					font-size: 16px;
+				}
+
+				#brooklyn-services .left-brooklyn p{
+					font-size: 16px;
+				}
+
+				.customers h2{
+					font-size: 22px;
+				}
+
+				.customers h6{
+					font-size: 18px;
+				}
 
 	} /* end mobile responsive media querie*/
 
